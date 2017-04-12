@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+require('dotenv').config()
+const handleImport = require('./handleImport')
+
+const deviceType = process.argv[2]
+const filePath = process.argv[3]
+
+console.log(`Importing ${deviceType} data from ${filePath}...`)
+
+handleImport(deviceType, filePath)

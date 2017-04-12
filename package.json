@@ -1,0 +1,23 @@
+{
+  "name": "import-manufacturing-data",
+  "version": "1.0.0",
+  "description": "Imports data files provided by the device manufacturer into our database.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "db:create": "./createDB",
+    "test": "test"
+  },
+  "author": "Amelia Clarke",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "mongodb": "^2.2.25"
+  }
+}

@@ -1,0 +1,5 @@
+Headers: serialNumber, skuNumber, augfirmware, battserialnumber
+D100000000
+02-01-001
+0.0.0-beta
+1234567890
